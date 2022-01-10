@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="calculator.css">
+    <script src="https://kit.fontawesome.com/8145e8cf22.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Calculator</h1>
+
+    <div id="calculator">
+        <input id="display" type="text">
+        <div id="buttons-container">
+
+            <button id="clear" class="btn">C</button>
+            <button id="open" class="btn parenthesis">(</button>
+            <button id="close" class="btn parenthesis">)</button>
+            <button id="division" class="btn btn-operators">/</button>
+
+            <button id="7" class="btn btn-num">7</button>
+            <button id="8" class="btn btn-num">8</button>
+            <button id="9" class="btn btn-num">9</button>
+            <button id="*" class="btn btn-operators">*</button>
+
+            <button id="4" class="btn btn-num">4</button>
+            <button id="5" class="btn btn-num">5</button>
+            <button id="6" class="btn btn-num">6</button>
+            <button id="+" class="btn btn-operators">+</button>
+
+            <button id="1" class="btn btn-num">1</button>
+            <button id="2" class="btn btn-num">2</button>
+            <button id="3" class="btn btn-num">3</button>
+            <button id="-" class="btn btn-operators" >-</button>
+
+            <button id="." class="btn btn-num">.</button> 
+            <button id="0" class="btn btn-num">0</button> 
+            <button id="erase" class="btn"><i id="innerErase" class="fas fa-backspace"></i></button>  
+            <button id="equal" class="btn btn-equal">=</button>
+
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
